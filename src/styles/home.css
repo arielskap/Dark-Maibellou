@@ -1,0 +1,10 @@
+
+html,body{
+    font-family: 'Raleway', sans-serif;
+}
+.subMenu{
+    border-width: 0.2rem !important
+}
+.subMenu a{
+    color: white;
+}

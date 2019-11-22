@@ -1,26 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dark - Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/lib/animate.css">
     <link rel="stylesheet" href="src/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="src/styles/home.css">
 </head>
-<body>
+<body class="bg-dark text-white animated fadeIn">
     <header>
-        <h1>Dark</h1>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg border border-warning border-right-0 border-top-0 border-left-0">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Familias
+                        </a>
+                        <div class="dropdown-menu border border-info subMenu bg-dark text-center" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Kahnwald</a>
+                            <a class="dropdown-item" href="#">Nielsen</a>
+                            <a class="dropdown-item" href="#">Tiedemann</a>
+                            <a class="dropdown-item" href="#">Doppler</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Capitulos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
+        <div class="my-3">
+            <h1 class="text-center animated pulse slower">Dark</h1>
+        </div>
         <div>
-            <video class="img-fluid" controls autoplay>
-                <source src="src/img/DARK - Trailer Subtitulado 2017.mp4" type="video/mp4">
-            </video>
+            <div>
+                <video class="img-fluid" controls>
+                    <source src="src/img/DARK - Trailer Subtitulado 2017.mp4" type="video/mp4">
+                </video>
+            </div>
+            <hr>
+            <div class="px-4">
+                <h2 class="text-center">Sinopsis</h2>
+                <p>
+                    Dark es una serie de drama sobrenatural y ciencia ficción, creada por Baran bo Odar y Jantje Friese y distribuida por Netflix; se trata de la primera serie original del mencionado servicio de streaming hecha en Alemania. <br>
+                    La serie narra la historia de 4 familias de Winden, un pequeño pueblo de Alemania. Las acciones principales suceden en el presente, durante el año 2019, cuando la misteriosa desaparición de dos niños de la comunidad, así como otros incidentes peculiares, recuerdan situaciones similares ocurridas en 1986. A partir de ahí, la serie se desarrollará en distintas épocas, siempre separadas entre sí por ciclos de 33 años. Es a través de todos estos momentos que se irán descubriendo las incógnitas, y la relación y origen de los personajes y de las circunstancias que desencadenaron toda la historia. <br>
+                    La primera temporada se estrenó en Netflix el 1 de diciembre de 2017 con un total de 10 episodios, mientras que la segunda contó con 8 episodios y fue subida a la plataforma el 21 de junio de 2019. <br>
+                    El 30 de mayo de 2019, a través de un video de la cuenta oficial de Netflix en YouTube, se anunció la renovación para una tercera y última temporada con la cual esperan cerrar todos los cabos sueltos de las primeras dos entregas. El rodaje comenzó el 24 de junio del mismo año. <br>
+                </p>
+            </div>
         </div>
     </main>
-    <footer>
-
+    <hr>
+    <footer class="d-flex justify-content-around pb-3">
+        <a class="text-warning" href="">Contacto</a>
+        <a class="text-warning" href="">Acerca De</a>
     </footer>
     <script src="src/lib/jquery-3.3.1.slim.min.js"></script>
     <script src="src/lib/popper.min.js"></script>
